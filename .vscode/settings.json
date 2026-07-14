@@ -1,0 +1,7 @@
+{
+    "cmake.buildDirectory": "${workspaceFolder}/out/build/${buildType}",
+    "cmake.configureOnOpen": true,
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.intelliSenseMode": "windows-msvc-x64",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
+}

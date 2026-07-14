@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build + Install Mod",
+            "type": "shell",
+            "command": "${workspaceFolder}\\dev_build_install.bat",
+            "problemMatcher": []
+        }
+    ]
+}

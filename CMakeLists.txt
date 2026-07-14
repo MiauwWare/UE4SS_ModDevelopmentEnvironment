@@ -4,4 +4,5 @@ project(MyCPPMods)
 
 # requirements
 add_subdirectory(RE-UE4SS)
+add_subdirectory(PalworldSDKHeaders)
 add_subdirectory(MyCPPMods)

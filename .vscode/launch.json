@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Build + Install Mod (no attach)",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "${workspaceFolder}\\dev_build_install.bat"
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "version": 8,
+    "configurePresets": [
+        {
+            "name": "Game__Debug__Win64",
+            "displayName": "Game__Debug__Win64",
+            "description": "Using compilers for Visual Studio 18 2026 (x64 architecture)",
+            "generator": "Visual Studio 18 2026",
+            "toolset": "host=x64",
+            "architecture": "x64",
+            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}",
+                "CMAKE_C_COMPILER": "cl.exe",
+                "CMAKE_CXX_COMPILER": "cl.exe"
+            }
+        },
+        {
+            "name": "Game__Dev__Win64",
+            "displayName": "Game__Dev__Win64",
+            "description": "Using compilers for Visual Studio 18 2026 (x64 architecture)",
+            "generator": "Visual Studio 18 2026",
+            "toolset": "host=x64",
+            "architecture": "x64",
+            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}",
+                "CMAKE_C_COMPILER": "cl.exe",
+                "CMAKE_CXX_COMPILER": "cl.exe"
+            }
+        },
+        {
+            "name": "Game__Test__Win64",
+            "displayName": "Game__Test__Win64",
+            "description": "Using compilers for Visual Studio 18 2026 (x64 architecture)",
+            "generator": "Visual Studio 18 2026",
+            "toolset": "host=x64",
+            "architecture": "x64",
+            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}",
+                "CMAKE_C_COMPILER": "cl.exe",
+                "CMAKE_CXX_COMPILER": "cl.exe"
+            }
+        },
+        {
+            "name": "Game__Shipping__Win64",
+            "displayName": "Game__Shipping__Win64",
+            "description": "Using compilers for Visual Studio 18 2026 (x64 architecture)",
+            "generator": "Visual Studio 18 2026",
+            "toolset": "host=x64",
+            "architecture": "x64",
+            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}",
+                "CMAKE_C_COMPILER": "cl.exe",
+                "CMAKE_CXX_COMPILER": "cl.exe"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "Game__Debug__Win64",
+            "displayName": "Game__Debug__Win64",
+            "configurePreset": "Game__Debug__Win64",
+            "configuration": "Game__Debug__Win64"
+        },
+        {
+            "name": "Game__Dev__Win64",
+            "displayName": "Game__Dev__Win64",
+            "configurePreset": "Game__Dev__Win64",
+            "configuration": "Game__Dev__Win64"
+        },
+        {
+            "name": "Game__Test__Win64",
+            "displayName": "Game__Test__Win64",
+            "configurePreset": "Game__Test__Win64",
+            "configuration": "Game__Test__Win64"
+        },
+        {
+            "name": "Game__Shipping__Win64",
+            "displayName": "Game__Shipping__Win64",
+            "configurePreset": "Game__Shipping__Win64",
+            "configuration": "Game__Shipping__Win64"
+        }
+    ]
+}

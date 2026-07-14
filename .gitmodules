@@ -3,3 +3,6 @@
 	url = https://github.com/UE4SS-RE/RE-UE4SS.git
 	branch = main 
 	ignore = dirty
+[submodule "PalworldSDKHeaders"]
+	path = PalworldSDKHeaders
+	url = https://github.com/MiauwWare/PalworldSDKHeaders.git
